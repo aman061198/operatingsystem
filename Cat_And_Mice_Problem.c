@@ -23,13 +23,13 @@ void * mice()
 	}
 	printf("MOUSE %d IS EATING \n",NumMice);
 	printf("MOUSE %d IS SLEEPING \n",NumMice);
-	sleep(5);
+	sleep(6);
 	if(i!=arr[i])
 	{
 		return;
 	}
 	printf("MOUSE %d WOKE UP AND STARTS EATING \n",NumMice);
-	sleep(5);
+	sleep(6);
 
 	printf("MOUSE %d HAS EXECUTED\n",NumMice);
 	
@@ -43,7 +43,7 @@ void * cat()
 	num=num+1;
 	printf("CAT %d HAS STARTED ITS EXECUTION \n",NumCats);
 	printf("CAT %d IS NOW SLEEPING \n",NumCats);
-	sleep(5);
+	sleep(6);
 	
 	printf("CAT %d WOKE UP \n",NumCats);
 	while(NumMice>0)
@@ -54,7 +54,7 @@ void * cat()
 	NumMice=NumMice-1;
 	}
 	printf("CAT %d IS NOW SLEEPING AGAIN\n",NumCats);
-	sleep(5);
+	sleep(6);
 	
 	printf("CAT %d WOKE UP AND STARTS EATING\n",NumCats);
 	NumBowls[num]=num;
